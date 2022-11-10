@@ -23,35 +23,46 @@
   </head>
   <body>
     <!--Шапка-->
-    <header class="pagе-header ">
-      <div class="contanier header-div">
-        <nav class="header-nav">
-          <!--Logo-->
-          <a href="./index.html" class="logo-link"> <span class="logo-first">Web</span>Studio </a>
-          <!--меню навігації-->
-          <ul class="nav-list">
+    <header class="pagе-header">
+    <div class="contanier header-div">
+    <nav class="header-nav">
+        <!--Logo-->
+        <a href="./" class="logo-link">
+            <span class="logo-first">Web</span>Studio
+        </a>
+        <!--меню навігації-->
+        <ul class="nav-list">
             <li class="nav_item">
-              <a href="./index.html" class="nav_link">Студія </a>
+                <a href="./" class="nav_link primary">Студія </a>
             </li>
             <li class="nav_item">
-              <a href="./portfolio.html" class="nav_link primary">Портфоліо </a>
+                <a href="./portfolio.html" class="nav_link">Портфоліо </a>
             </li>
             <li class="nav_item">
-              <a href="#" class="nav_link">Контакти</a>
+                <a href="#" class="nav_link">Контакти</a>
             </li>
-          </ul>
-        </nav>
-        <!--Контакти-->
-        <ul class="address-list address-header">
-          <li class="address-item">
-            <a href="mailto:info@devstudio.com " class="address-link">info@devstudio.com </a>
-          </li>
-          <li class="address-item">
-            <a href="tel:+380961111111" class="address-link">+38 096 111 11 11 </a>
-          </li>
         </ul>
-      </div>
-    </header>
+    </nav>
+    <!--Контакти-->
+    <ul class="address-list address-header">
+        <li class="address-item "> 
+            <a href="mailto:info@devstudio.com " class="address-link header-mail">
+                <svg class="icon" width="16" height="12">
+                    <use href="./images/icons.svg#icon-envelope"> </use>
+                </svg>
+                info@devstudio.com 
+            </a>
+        </li>
+        <li class="address-item "> 
+            <a href="tel:+380961111111" class="address-link header-tel ">
+                <svg class="icon" width="10" height="16">
+                    <use href="./images/icons.svg#icon-smartphone"> </use>
+                </svg>
+                +38 096 111 11 11 </a></li>
+    </ul>
+</div>
+    
+  </header>
     <!-- унікальний контент сторінки portfolio-->
     <main class="portfolio-main ">
       <section class="portfolio-work section">
@@ -153,19 +164,54 @@
       </section>
     </main>
     <!-- підвал сторінки-->
-    <footer class="my-footer section">
-      <div class="contanier contanier-footer">
-        <a href="./" class="logo-link">
-          <span class="logo-first logo-footer">Web</span>Studio
+   <footer class="my-footer section">
+    <div class="contanier contanier-footer">
+        <div>
+            <a href="./" class="logo-link">
+            <span class="logo-first logo-footer">Web</span>Studio
         </a>
         <address class="footer-address">
-          <p class="address">м. Київ, пр-т Лесі Українки, 26</p>
-          <ul class="address-list footer">
-            <li class="address-item"><a class="address-link footer-link" href="mailto:info@devstudio.com" >info@devstudio.com </a></li>
-            <li class="address-item"><a class="address-link footer-link " href="tel:+380961111111" >+38 096 111 11 11</a> </li>
-          </ul>
+            <p class="address">м. Київ, пр-т Лесі Українки, 26</p>
+            <ul class="address-list footer">
+                <li class="address-item"><a href="mailto:info@devstudio.com" class="address-link">info@devstudio.com </a></li>
+                <li class="address-item"><a href="tel:+380961111111" class="address-link">+38 096 111 11 11</a> </li>
+            </ul>
         </address>
-      </div>
-    </footer>
+        </div>
+        <div>
+            <p class="footer-acteve-title">приєднуйтесь</p>
+            <ul class="actions-list footer">
+                    <li class="actions-item">
+                        <a class="actions-item-link footer" href="#">
+                            <svg class="actions-item-icon" width="20" height="20">
+                                <use href="./images/icons.svg#icon-instagram"> </use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="actions-item">
+                        <a class="actions-item-link footer" href="#">
+                            <svg class="actions-item-icon" width="20" height="20">
+                                <use href="./images/icons.svg#icon-twitter"> </use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="actions-item">
+                        <a class="actions-item-link footer" href="#">
+                            <svg class="actions-item-icon" width="20" height="20">
+                                <use href="./images/icons.svg#icon-facebook"> </use>
+                            </svg>
+                        </a>
+                    </li>
+                   <li class="actions-item">
+                        <a class="actions-item-link footer" href="#">
+                            <svg class="actions-item-icon" width="20" height="20">
+                                <use href="./images/icons.svg#icon-linkedin"> </use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+        </div>
+    </div>
+</footer>
   </body>
 </html>
